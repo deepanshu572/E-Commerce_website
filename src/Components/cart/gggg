@@ -1,0 +1,9 @@
+   // console.log(curElem);
+      // let x = curElem.menu[0]; 
+      // console.log(x);
+      //   return(
+      //   <div key={x.id}>
+      //     <p>{x.category}</p>
+      //     <p>{x.texture}</p>
+      //   </div>
+      //   )

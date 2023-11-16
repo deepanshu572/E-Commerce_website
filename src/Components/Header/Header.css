@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 139px;
+    gap: 10px;
+}
+.container p {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    /* font-weight: 600; */
+    text-align: center;
+    font-size: 24px;
+    font-family: math;
+}
+
+.box1 img{
+    width: 559px;
+    height: 438px;
+}
+.img-overlay1{
+    width: 560px;
+    height: 438px;
+    opacity: 0.3;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    transition: all .3s ease-in;
+}
+.img-overlay2{
+    width: 226px;
+    height: 435px;
+     opacity: 0.3;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    transition: all .3s ease-in;
+}
+.img-overlay3{
+    width: 313px;
+    height: 210px;
+     opacity: 0.3;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    transition: all .3s ease-in;
+}
+.img-overlay4{
+    width: 313px;
+    height: 210px;
+     opacity: 0.3;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    transition: all .3s ease-in;
+}
+.img-overlay1:hover{
+   background-color: black;
+}
+.img-overlay2:hover{
+   background-color: black;
+}
+.img-overlay3:hover{
+   background-color: black;
+}
+.img-overlay4:hover{
+   background-color: black;
+}
+.box2 img{
+    width: 226px;
+    height: 435px;
+}
+.box-wrap{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.box3 img{
+    width: 313px;
+    height: 210px;
+}
+.box4 img{
+    width: 313px;
+    height: 210px;
+}

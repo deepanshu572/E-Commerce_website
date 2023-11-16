@@ -1,0 +1,32 @@
+.trend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.trend1  p{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: system-ui;
+
+}
+.trend2 i{
+    color: #fff;
+    /* background: black; */
+    padding: 6px 10px;
+    margin: 0px 6px;
+}
+.trend-box img {
+    width: 232px;
+}
+.trend-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    width: 87vw;
+    margin: auto;
+}
+.trend-product::-webkit-scrollbar{
+    display: none;
+}

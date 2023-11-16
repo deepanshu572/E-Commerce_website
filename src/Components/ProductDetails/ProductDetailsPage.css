@@ -1,0 +1,136 @@
+.product-main-box{
+padding: 0px 20px;
+padding-top: 7rem;
+}
+.product-details{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: math;
+}
+.left-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-big img{
+ width: 439px;
+}
+.left-small{
+    display: flex;
+    align-items: center;
+}
+.left-small img{
+width: 100px;
+}
+.right-product{
+    width: 572px;
+    background: #E5E5E5;
+    padding: 3rem 27px;
+}
+.right-product b{
+    font-size: 18px;
+}
+.right-product span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.buy-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.button-qty {
+ display: flex;
+}
+.button-qty b{
+    padding: 10px 35px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.button-qty .btn1{
+    padding: 3px 15px;
+    font-size: 21px;
+    background: #fff;
+    border: 1px solid black;
+
+}.button-qty  .quantity{
+    padding: 3px 15px;
+    font-size: 20px;
+    background: #d0d0d0;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.button-qty  .btn3{
+    padding: 0px 15px;
+    font-size: 25px;
+    background: #fff;
+    border: 1px solid black;
+
+}
+.buy-btn button:nth-child(1){
+    padding: 9px 60px;
+    margin: 6px 20px;
+    background: transparent;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 2px solid black;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+.buy-btn button:nth-child(1):hover{
+    background-color: black;
+    color: #fff;
+}
+.buy-btn button:nth-child(2){
+    font-weight: 600;
+    padding: 9px 60px;
+    margin: 6px 20px;
+    background: #b6002c;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: all .2s;
+    border: 2px solid #b6002c;
+}
+.buy-btn button:nth-child(2):hover{
+      background: transparent;
+      color :#b6002c;
+      border: 2px solid #b6002c;
+}
+.payment{
+    font-family: cursive;
+    font-size: 20px;
+}
+.more-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 4rem 0px; */
+    padding-top: 6rem;
+    gap: 3vw;
+}
+.textute , .Weight , .size{
+    background: #e5e5e5;
+    width: 27vw;
+    padding: 2px 19px;
+    font-size: 19px;
+
+}
+.textute b , .Weight b , .size b{
+    text-transform: uppercase;
+}
+.textute p , .Weight p , .size p{
+    text-transform: uppercase;
+   font-family: monospace;
+}
